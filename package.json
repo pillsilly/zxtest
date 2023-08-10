@@ -4,8 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "npx": "npx",
+    "test": "npx zx test.mjs",
+    "testjscall" : "node --input-type='module' jstest.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "zx": "^7.2.3"
+  }
 }
